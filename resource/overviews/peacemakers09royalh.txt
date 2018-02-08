@@ -1,0 +1,12 @@
+GAME
+{
+"pos_x" "-8750"   ////9321
+"pos_y" "13435"
+"scale" "14"
+"material" "vgui/swarm/Overviews/royalh1Overview"
+"briefingmaterial" "vgui/swarm/Overviews/royalh1OverviewBriefing"
+"mapyoffset" "-60"
+"missiontitle" "Episode1: Charging Bay"
+"description" "Locate the hive and kill all eggs"
+"image" "swarm/missionpics/royalh1_screen"
+}

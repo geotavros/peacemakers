@@ -1,0 +1,15 @@
+GAME
+{	
+	"pos_x"		"-6835"
+	"pos_y"		"4420"
+	"scale"		"11.0"
+	"material" 		"vgui/swarm/Overviews/sealOverview"  			
+	"briefingmaterial" 	"vgui/swarm/Overviews/sealOverviewBriefing"
+	"mapyoffset" "-60"		
+	"missiontitle"		"S.E.A.L."
+	"description"		"one shot map"
+	"image"			"swarm/MissionPic/sealMissionPic"  			
+	"version"		"1.0"
+	"author"		"Kelsuis"
+	"website"		""
+}

@@ -1,0 +1,33 @@
+"peacemakers01rapture.BattleMusic"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"*#music\peacemakers\mus01.mp3"
+}
+
+"ambient.alarms.klaxon1_nopitch"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"1.000"
+	"pitch"		"100"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"	"ambient/alarms/klaxon1.wav"
+}
+
+"ambient.alarms.pm_siren01"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"1.000"
+	"pitch"		"100"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"	"ambient/alarm/lc_alarm1.wav"
+}
+

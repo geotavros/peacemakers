@@ -1,0 +1,76 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "5032"
+	"mapversion" "1"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "64"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "1"
+	"classname" "worldspawn"
+	"skyname" "blacksky"
+	"maxpropscreenwidth" "-1"
+	"detailvbsp" "detail.vbsp"
+	"detailmaterial" "detail/detailsprites"
+}
+entity
+{
+	"id" "10"
+	"classname" "asw_objective_triggered"
+	"objectivedescription1" "Collect information on the Queen's location."
+	"objectiveimage" "objdata"
+	"objectivetitle" "Collect data on the Queen"
+	"targetname" "objData"
+	"Visible" "1"
+	"origin" "64 -232 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 13000]"
+	}
+}
+entity
+{
+	"id" "12"
+	"classname" "asw_objective_escape"
+	"mapmarkings" "BRACKETS 773 19 35 54"
+	"objectivedescription1" "Gain access to a roof for escaping."
+	"objectiveimage" "objescape"
+	"objectiveinfoicon1" "OIconPlanet"
+	"objectiveinfoicon2" "OIconDroneTop"
+	"objectivetitle" "Gain access to a roof for extraction"
+	"targetname" "ExitZone"
+	"Visible" "1"
+	"origin" "64 -280 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 -8268]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}

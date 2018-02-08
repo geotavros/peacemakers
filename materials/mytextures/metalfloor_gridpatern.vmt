@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "mytextures/metalfloor_gridpatern"
+	"$surfaceprop" "MetalGrate"
+}

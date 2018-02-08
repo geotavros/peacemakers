@@ -1,0 +1,22 @@
+GAME
+{
+"MailFrom1" "From: Kyle Broflovski"
+"MailDate1" "Date: 07/01/56"
+"MailSubject1" "Subject: Strange Sounds"
+"MailBody1A" "Hey partner!"
+"MailBody1B" "Recently, it had sounded as if something alive in the crates,"
+"MailBody1C" "but probably I've just imagined."
+"MailBody1D" "cu"
+
+	
+// sent mail
+	
+"MailFrom3"	"To: Kyle Broflovski"
+"MailDate3"	"Date: 07/01/56"
+"MailSubject3"	"Subject: Re: Strange Sounds"
+"MailBody3A"	"Now that you say it,"
+"MailBody3B"	"i have also heard sounds from the crates"
+"MailBody3C"	"and a strange smell too,"
+"MailBody3D"	"im afraid, hope to see you soon ;)"
+
+} 

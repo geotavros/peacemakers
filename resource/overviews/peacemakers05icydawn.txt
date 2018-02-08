@@ -1,0 +1,25 @@
+GAME
+{
+	// radar map position and scale (see the Valve wiki for more information: http://developer.valvesoftware.com/wiki/Main_Page)
+	"pos_x"		"0"
+	"pos_y"		"0"
+	"scale"		"20.0"
+
+	// material used for the radar map (in the bottom left corner)
+	"material" 		"vgui/swarm/Computer/ComputerScan"  			// example: "vgui/swarm/Overviews/landingbay02Overview"
+
+	// material used for the briefing map (shown before the mission starts)
+	"briefingmaterial" 	"vgui/swarm/missionpics/unknownmissionpic"			// example: "vgui/swarm/Overviews/landingbay02briefingOverview"
+
+	// Title of the mission
+	"missiontitle"		"Orion Stronghold"
+	// Description text shown for the mission
+	"description"		"Eliminate the alien breeders in this former military installment."
+	
+	// Mission image that shows when selecting this mission
+	"image"			"swarm/MissionPics/icy_mission_2_pic"  			//must be under "vgui" - dont include vgui in the path
+
+	"version"		"1.0"
+	"author"		"Madk"
+	"website"		"http://www.alienswarm.com/"
+}

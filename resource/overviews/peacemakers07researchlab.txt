@@ -1,0 +1,24 @@
+ GAME
+{
+	// radar map position and scale (see the Valve wiki for more information: http://developer.valvesoftware.com/wiki/Main_Page)
+	"pos_x"		"-2600"
+	"pos_y"		"7161"
+	"scale"		"8.0"
+
+	// material used for the radar map (in the bottom left corner)
+	"material" 		"vgui/swarm/Overviews/researchlabOverview2"  			// example: "vgui/swarm/Overviews/landingbay02Overview"
+
+	// material used for the briefing map (shown before the mission starts)
+	"briefingmaterial" 	"vgui/swarm/Overviews/researchlabOverview2"			// example: "vgui/swarm/Overviews/landingbay02briefingOverview"
+
+	// Title of the mission
+	"missiontitle"		"Research Station Delta"
+	// Description text shown for the mission
+	"description"		"The bio-weapon is loose, clear the research lab of the contaminants and then chase the bulk of the swarm"
+	
+	// Mission image that shows when selecting this mission
+	"image"			"swarm/missionpics/researchlab2"  			//must be under "vgui" - dont include vgui in the path
+
+	"version"		"0.9"
+	"author"		"DarkPigeon"
+	"website"		"http://swarmarmory.com/"

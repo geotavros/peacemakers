@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/swarm/Overviews/researchlabOverview2"
+	"$translucent" 1
+}

@@ -1,0 +1,15 @@
+// The addoninfo.txt file is a metadata file that is required by all Source Engine Add-ons. 
+ 
+AddonInfo {
+     addonSteamAppID         630
+     addontitle              "Peacemakers"
+     addonversion            1.0
+     addontagline            "a united campaign"
+     addonauthor             "DIMEDROLL et al"
+     addonSteamGroupName     ""
+     addonauthorSteamID      "_dimedroll"
+     addonContent_Campaign   1
+     addonURL0               "https://sites.google.com/site/swarmaddons/maps/peacemakers"
+     addonDescription        "Peacemakers, a united campaign"
+
+}

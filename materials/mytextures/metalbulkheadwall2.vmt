@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "mytextures/metalbulkheadwall2"
+	"$surfaceprop" "MetalPanel"
+}

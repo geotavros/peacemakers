@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+ "$basetexture" "vgui/swarm/Overviews/missionQueen01OverviewBriefing"
+ "$ignorez" 1
+ "$vertexcolor" 1
+} 

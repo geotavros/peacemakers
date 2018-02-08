@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+ "$basetexture" "vgui/swarm/ObjectivePics/objdata"
+ "$ignorez" 1
+ "$vertexcolor" 1
+} 

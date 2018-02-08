@@ -1,0 +1,10 @@
+GAME
+{
+"MailFrom1" "From: Mr. Garrison"
+"MailDate1" "Date: 07/3/56"
+"MailSubject1" "Subject: Armory"
+"MailBody1A" "The whole complex is captured by the aliens now,"
+"MailBody1B" "they were probably hidden in a delivery, "
+"MailBody1C" "we try to open in time the armory,"
+"MailBody1D" "It is our last chance of survival."
+} 

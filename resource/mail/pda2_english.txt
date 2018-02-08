@@ -1,0 +1,8 @@
+GAME
+{
+"MailFrom1" "From: Eric Cartman"
+"MailDate1" "Date: 07/3/56"
+"MailSubject1" "Subject: Ventilation Shafts"
+"MailBody1A" "The remote-room was suddenly full of these critters,"
+"MailBody1B" "they probably move through the ventilation shafts."
+} 

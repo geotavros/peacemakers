@@ -1,0 +1,158 @@
+GAME
+{
+	// identifier for this campaign
+	"CampaignName" "Peacemakers"
+	
+	// description shown on the main menu when choosing which campaign to play
+	"CampaignDescription" ""
+	
+	// texture used on the main menu when choosing which campaign to play
+	"ChooseCampaignTexture" "swarm/campaign/Extermination_pic"
+	
+	// texture used on the campaign screen for the map
+	"CampaignTextureName" "swarm/MissionPics/exterminationmap512"
+	
+	// these textures are overlaid on top of the campaign map in order
+	"CampaignTextureLayer1" "swarm/Campaign/CampaignMap_EmptyLayer"			//"CampaignTextureLayer1" "swarm/Campaign/JacobCampaignMap_Haze"
+	"CampaignTextureLayer2" "swarm/Campaign/CampaignMap_EmptyLayer"			//"CampaignTextureLayer2" "swarm/Campaign/JacobCampaignMap_SnowNear"
+	"CampaignTextureLayer3" "swarm/Campaign/CampaignMap_EmptyLayer"			//"CampaignTextureLayer3" "swarm/Campaign/JacobCampaignMap_SnowFar"
+	
+	// custom campaign credits file
+	"CustomCreditsFile" 	"resource/peacemakers_credits"
+
+	// position of this campaign in the galactic map (coords go from 0 to 1023)
+	"GalaxyX"   "777"
+	"GalaxyY"   "777"
+	
+	// first mission entry is a dummy for the starting point
+	"MISSION"
+	{
+		"MissionName"			"Entry Point"
+		"MapName"				"peacemakers00starting_point"
+		"LocationX"				"900"
+		"LocationY"				"550"
+		"DifficultyModifier" 	"-2"
+		"Links"					"peacemakers01rapture" 
+		"LocationDescription"  	"Entry Point"
+		"ShortBriefing"  		"Dropship Bloodhound will enter atmosphere at these co-ordinates and proceed to primary objective."
+	}
+	
+	// each mission listed
+	"MISSION"
+	{
+		"MissionName"			"Rapture 17"
+		"MapName"				"peacemakers01rapture"
+		"LocationX"				"876"
+		"LocationY"				"454"
+		"ThreatString" 			"1"
+		"Links"					"peacemakers00starting_point peacemakers02breach"
+		"LocationDescription" 	"Colonial Port"
+		"ShortBriefing"  		""
+		"AlwaysVisible"			"1"
+		"NeedsMoreThanOneMarine" "0"
+	}
+	"MISSION"
+	{
+		"MissionName"			"Breach"
+		"MapName"				"peacemakers02breach"
+		"LocationX"				"800"
+		"LocationY"				"418"
+		"ThreatString" 			"1"
+		"Links"					"peacemakers01rapture peacemakers03seal"
+		"LocationDescription" 	"Transportation Road"
+		"ShortBriefing"  		""
+		"AlwaysVisible"			"1"
+		"NeedsMoreThanOneMarine" "0"
+	}
+	"MISSION"
+	{
+		"MissionName"		"S.E.A.L"
+		"MapName"			"peacemakers03seal"
+		"LocationX"			"686"
+		"LocationY"			"384"
+		"ThreatString" 		"1"
+		"Links"				"peacemakers02breach peacemakers04icydawn"
+		"LocationDescription" 	"Arctic Infiltration"
+		"ShortBriefing"  	""
+		"AlwaysVisible"		"1"
+		"NeedsMoreThanOneMarine" "0"
+	}
+	"MISSION"
+	{
+		"MissionName"		"Icy Mission 1"
+		"MapName"			"peacemakers04icydawn"
+		"LocationX"			"630"
+		"LocationY"			"344"
+		"ThreatString" 		"1"
+		"Links"				"peacemakers03seal peacemakers05icydawn"
+		"LocationDescription" 	"Area 9800"
+		"ShortBriefing"  	""
+		"AlwaysVisible"		"1"
+		"NeedsMoreThanOneMarine" "0"
+	}
+	"MISSION"
+	{
+		"MissionName"		"Icy Mission 2"
+		"MapName"			"peacemakers05icydawn"
+		"LocationX"			"578"
+		"LocationY"			"308"
+		"ThreatString" 		"1"
+		"Links"				"peacemakers04icydawn peacemakers06breachingthedoor"
+		"LocationDescription" 	"Cold Catwalks"
+		"ShortBriefing"  	""
+		"AlwaysVisible"		"1"
+		"NeedsMoreThanOneMarine" "0"
+	}
+	"MISSION"
+	{
+		"MissionName"		"Breaching the Door"
+		"MapName"			"peacemakers06breachingthedoor"
+		"LocationX"			"870"
+		"LocationY"			"260"
+		"ThreatString" 		"1"
+		"Links"				"peacemakers05icydawn peacemakers07researchlab"
+		"LocationDescription" 	"Yanaurus Mine"
+		"ShortBriefing"  	""
+		"AlwaysVisible"		"1"
+		"NeedsMoreThanOneMarine" "0"
+	}
+	"MISSION"
+	{
+		"MissionName"		"Research Lab"
+		"MapName"			"peacemakers07researchlab"
+		"LocationX"			"734"
+		"LocationY"			"238"
+		"ThreatString" 		"1"
+		"Links"				"peacemakers06breachingthedoor peacemakers08missionqueen"
+		"LocationDescription" 	"Forgotten Factory"
+		"ShortBriefing"  	""
+		"AlwaysVisible"		"1"
+		"NeedsMoreThanOneMarine" "0"
+	}
+	"MISSION"
+	{
+		"MissionName"		"Mission Queen"
+		"MapName"			"peacemakers08missionqueen"
+		"LocationX"			"620"
+		"LocationY"			"230"
+		"ThreatString" 		"1"
+		"Links"				"peacemakers07researchlab peacemakers09royalh"
+		"LocationDescription" 	"Communication Center"
+		"ShortBriefing"  	""
+		"AlwaysVisible"		"1"
+		"NeedsMoreThanOneMarine" "0"
+	}
+	"MISSION"
+	{
+		"MissionName"		"Royal Harvest"
+		"MapName"			"peacemakers09royalh"
+		"LocationX"			"384"
+		"LocationY"			"508"
+		"ThreatString" 		"1"
+		"Links"				"peacemakers08missionqueen"
+		"LocationDescription" 	"Syntek Hostpital"
+		"ShortBriefing"  	""
+		"AlwaysVisible"		"1"
+		"NeedsMoreThanOneMarine" "0"
+	}
+}

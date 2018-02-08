@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+    "$translucent" 1
+    "$basetexture" "overlays/aswp_Letter_F"
+    "$decal" 1
+    "$decalscale" 0.5
+}

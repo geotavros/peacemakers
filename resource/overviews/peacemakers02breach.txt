@@ -1,0 +1,24 @@
+GAME {
+	// radar map position and scale (see the Valve Wiki for more information: http://developer.valvesoftware.com/wiki/Main_Page)
+	"pos_x"      "-5690"
+	"pos_y"      "6275"
+	"scale"      "10.0"
+
+	// material used for the radar map (in the bottom left corner)
+	"material"       "vgui/swarm/overviews/peacemakers02breach"           // example: "vgui/swarm/Overviews/landingbay02Overview"
+
+	// material used for the briefing map (shown before the mission starts)
+	"briefingmaterial"    "vgui/swarm/overviews/peacemakers02breach"      // example: "vgui/swarm/Overviews/landingbay02briefingOverview"
+
+	// Title of the mission
+	"missiontitle"      "Breach"
+	// Description text shown for the mission
+	"description"      "Zentar is the outer most colony, unknow to the Core systems and the Allied Systems. No one ever leaves or arrives here. It is unknow who first colonised this lifeless moon. Zentar is completely covered under an ocean. However, because the atmosphere has long been lost, the ocean has frozen over. Something sinister has emerged beneath the ocean. A single radio wave was picked up by a IAF battleship. It did not carry any voice message, only 3 letters "HEL.......". A team has been sent to find this mysterious colony and find the truth behind its existance."
+       
+	// Mission image that shows when selecting this mission
+	"image"         "swarm/campaign/zentarassault"           //must be under "vgui" - dont include vgui in the path
+
+	"version"      "0.3"
+	"author"      "marthike"
+	"website"      ""
+}

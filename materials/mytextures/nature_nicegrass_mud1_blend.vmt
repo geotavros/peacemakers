@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "mytextures/nature_nicegrass"
+	"$basetexture2" "mytextures/nature_mud1"
+	"$surfaceprop" "Dirt"
+	"$surfaceprop2" "Dirt"
+}

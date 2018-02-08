@@ -1,0 +1,25 @@
+GAME
+{
+   // radar map position and scale (see the Valve Wiki for more information: http://developer.valvesoftware.com/wiki/Main_Page)
+   "pos_x"      "-6800"
+   "pos_y"      "8869"
+   "scale"      "10.0"
+
+   // material used for the radar map (in the bottom left corner)
+   "material"       "vgui/swarm/Overviews/missionQueen01Overview"           // example: "vgui/swarm/Overviews/landingbay02Overview"
+
+   // material used for the briefing map (shown before the mission starts)
+   "briefingmaterial"    "vgui/swarm/Overviews/missionQueen01OverviewBriefing"      // example: "vgui/swarm/Overviews/landingbay02briefingOverview"
+
+   // Title of the mission
+   "missiontitle"      "Mission Queen 01"
+   // Description text shown for the mission
+   "description"      "You will have to download collected information on the possible location of the Queen"
+   
+   // Mission image that shows when selecting this mission
+   "image"         "swarm/MissionPics/UnknownMissionPic"           //must be under "vgui" - dont include vgui in the path
+
+   "version"      "0.2"
+   "author"      "Zorg045"
+   "website"      ""
+}

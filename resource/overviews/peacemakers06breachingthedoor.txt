@@ -1,0 +1,25 @@
+GAME
+{
+	// radar map position and scale (see the Valve wiki for more information: http://developer.valvesoftware.com/wiki/Main_Page)
+	"pos_x"		"-6825"
+	"pos_y"		"5027"
+	"scale"		"7.5"
+
+	// material used for the radar map (in the bottom left corner)
+	"material" 		"vgui/Overviews/breachingthedoor"  			// example: "vgui/swarm/Overviews/landingbay02Overview"
+
+	// material used for the briefing map (shown before the mission starts)
+	"briefingmaterial" 	"vgui/Overviews/breachingthedoor"		// example: "vgui/swarm/Overviews/landingbay02briefingOverview"
+
+	// Title of the mission
+	"missiontitle"		"Breaching The Door"
+	// Description text shown for the mission
+	"description"		"Entering the facility... "
+	
+	// Mission image that shows when selecting this mission
+	"image"			"MissionPics\BreachingTheDoor"  			//must be under "vgui" - dont include vgui in the path
+
+	"version"		"1.0"
+	"author"		"blackley1"
+	"website"		"http://sites.google.com/site/wingwarp/"
+}

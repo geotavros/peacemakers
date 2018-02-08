@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "mytextures/concreteplating_orangepiping"
+	"$surfaceprop" "Concrete"
+}

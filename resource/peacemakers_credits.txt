@@ -1,0 +1,21 @@
+Credits {
+	show_credits_logo 1
+	custom_logo "credits/peacemakers_campaign"
+	asw_credits_ "Peacemakers"
+	asw_credits_ "A united campaign"
+	asw_credits_ ""
+	asw_credits_ "Original maps by:"
+	asw_credits_ "1 - Rapture (First Visit) - Sergei 'STALKER4732' Lavrinenco"
+	asw_credits_ "2 - Breach (Zentar Assault) - marthike"
+	asw_credits_ "3 - S.E.A.L. - Kelsuis"
+	asw_credits_ "4 - Bunker Infestation (Icy Dawn) - Madk"
+	asw_credits_ "5 - Orion Stronghold (Icy Dawn) - Madk"
+	asw_credits_ "6 - Breaching the Door - blackley1"
+	asw_credits_ "7 - Research Station Delta - DarkPigeon"
+	asw_credits_ "8 - Mission Queen - Zorg045"
+	asw_credits_ "9 - Royal Harvest - PokerFlat"
+	asw_credits_ ""
+	asw_credits_ "Cleanup and continuity by:"
+	asw_credits_ "DIMEDROLL"
+	asw_credits_ "Nightgunner5"
+}

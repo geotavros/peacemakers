@@ -1,0 +1,36 @@
+GAME
+{
+// PDA belongs to Johnson
+
+"MailFrom1" "From: Marine Command"
+"MailDate1" "Date: 02/04/2254"
+"MailSubject1" "Subject: Drop Time"
+"MailBody1A" "Cpl. Johnson,"
+"MailBody1B" "Your drop onto Osiris is scheduled for 0600."
+"MailBody1C" "Best of luck out there. Report when you land."
+"MailBody1D" "- Gen. Scorpio, Marine Command"
+
+"MailFrom2" "From: Lt. Beckham"
+"MailDate2" "Date: 02/04/2254"
+"MailSubject2" "Subject: Raid Tomorrow"
+"MailBody2A" "JohnSon,"
+"MailBody2B" "So, our mission's for 0600 tomorrow eh?"
+"MailBody2C" "Wonder if we'll make it back. Heard Delta Force was shreded after ten minutes."
+"MailBody2D" "- Lt. Beckham, Marine Echo Force"
+
+"MailFrom3" "To: Lt. Beckham"
+"MailDate3" "Date: 02/04/2254"
+"MailSubject3" "Subject: Re: Raid Tomorrow"
+"MailBody3A" "Beckham,"
+"MailBody3B" "Yeah, we're pretty much fucked."
+"MailBody3C" "Hopefully it's not as bad as they say."
+"MailBody3D" "- Cpl. Johnson, Marine Echo Force"
+
+"MailFrom4" "To: Marine Command"
+"MailDate4" "Date: 02/05/2254"
+"MailSubject4" "Subject: Initial Drop"
+"MailBody4A" "Command,"
+"MailBody4B" "HALO Drop was a success, no causalties so far."
+"MailBody4C" "Met by fierce resistance on the ground."
+"MailBody4D" "- Cpl. Johnson, Marine Echo Force"
+} 
